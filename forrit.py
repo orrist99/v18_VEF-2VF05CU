@@ -54,4 +54,4 @@ def jobs():
            "</body>" \
            "</html>"
 
-run(host='0.0.0.0', port=int(os.enviorn.get("port", 5000)), debug=True)
+run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
