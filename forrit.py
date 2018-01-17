@@ -1,7 +1,7 @@
 import os
 from bottle import route, run
 
-@route('/job')
+@route('/')
 def job():
     return "<!DOCTYPE html>" \
            "<html>" \
